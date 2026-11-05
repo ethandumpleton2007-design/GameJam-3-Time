@@ -10,9 +10,16 @@ posOffsetX = -32;
 
 // Hiting things
 
-hitDir = 0
+hitOffsetConst = 16;
 
+hitDir = 0;
+hitOffsetX = -16;
+hitOffsetY = 0;
 
+hitObject = R_Obj_HitEffectClass
+
+hitCooldown = 0;
+hitCooldownConst = 12;
 
 // Direction
 

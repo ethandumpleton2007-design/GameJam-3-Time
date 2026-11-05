@@ -9,6 +9,7 @@
     {"name":"inst_36840D60","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
     {"name":"inst_FF095F3","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
     {"name":"inst_7B723AAE","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
+    {"name":"inst_2F8DA9C5","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,13 +17,14 @@
         {"$GMRInstance":"v4","%Name":"inst_36840D60","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36840D60","objectId":{"name":"R_Obj_Egg","path":"objects/R_Obj_Egg/R_Obj_Egg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_FF095F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FF095F3","objectId":{"name":"R_Obj_Player","path":"objects/R_Obj_Player/R_Obj_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_7B723AAE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B723AAE","objectId":{"name":"R_Obj_DinoClass","path":"objects/R_Obj_DinoClass/R_Obj_DinoClass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2F8DA9C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F8DA9C5","objectId":{"name":"R_Obj_GameControl","path":"objects/R_Obj_GameControl/R_Obj_GameControl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4284415865,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"R_Spr_BackRoundTemp","path":"sprites/R_Spr_BackRoundTemp/R_Spr_BackRoundTemp.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"R_DinoRoom",
   "parent":{
-    "name":"Cyrus",
-    "path":"folders/Game/Cyrus.yy",
+    "name":"R_Room",
+    "path":"folders/Game/Cyrus/R_Room.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

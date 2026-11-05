@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"R_GobalVaribles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"R_GobalVaribles",
+  "parent":{
+    "name":"R_Scripts",
+    "path":"folders/Game/Cyrus/R_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
