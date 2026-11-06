@@ -1,0 +1,47 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Blank Pixel Game",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"E_MINIGAME_FUTURE","folderPath":"folders/E_MINIGAME_FUTURE.yy","name":"E_MINIGAME_FUTURE","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"E_Objects","folderPath":"folders/E_MINIGAME_FUTURE/E_Objects.yy","name":"E_Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"E_Placeholder_Sprites","folderPath":"folders/E_MINIGAME_FUTURE/E_Placeholder_Sprites.yy","name":"E_Placeholder_Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"E_Rooms","folderPath":"folders/E_MINIGAME_FUTURE/E_Rooms.yy","name":"E_Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"E_sprites","folderPath":"folders/E_MINIGAME_FUTURE/E_sprites.yy","name":"E_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"Blank Pixel Game",
+  "resources":[
+    {"id":{"name":"E_obj_Collision","path":"objects/E_obj_Collision/E_obj_Collision.yy",},},
+    {"id":{"name":"E_obj_Game_Manager","path":"objects/E_obj_Game_Manager/E_obj_Game_Manager.yy",},},
+    {"id":{"name":"E_obj_Player_Lazer","path":"objects/E_obj_Player_Lazer/E_obj_Player_Lazer.yy",},},
+    {"id":{"name":"E_obj_Player_Ship","path":"objects/E_obj_Player_Ship/E_obj_Player_Ship.yy",},},
+    {"id":{"name":"E_Minigame_Future","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},},
+    {"id":{"name":"E_spr_Collis_Sprite","path":"sprites/E_spr_Collis_Sprite/E_spr_Collis_Sprite.yy",},},
+    {"id":{"name":"E_spr_Placeholder_BG","path":"sprites/E_spr_Placeholder_BG/E_spr_Placeholder_BG.yy",},},
+    {"id":{"name":"E_spr_Placeholder_Player_Lazer","path":"sprites/E_spr_Placeholder_Player_Lazer/E_spr_Placeholder_Player_Lazer.yy",},},
+    {"id":{"name":"E_spr_Placeholder_Player_Ship","path":"sprites/E_spr_Placeholder_Player_Ship/E_spr_Placeholder_Player_Ship.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"E_Minigame_Future","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
