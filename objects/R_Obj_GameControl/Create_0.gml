@@ -9,19 +9,20 @@ spawnCoolDownVarrationUpRange = 20;
 spawnCoolDownCount = 50;
 
 dinoSpawn = R_Obj_DinoClass;
+heavyDinoSpawn = R_Obj_ArmoredDino;
 
 
 
 // Spawn Pos
 
-	xLeft = 112;
-	xMiddle = 240;
-	xRight = 368;
+	xLeft = 528;
+	xMiddle = 960;
+	xRight = 1392;
 
 
-	yTop = 0;
-	yMiddle = 128;
-	yBottom = 256;
+	yTop = 136;
+	yMiddle = 528;
+	yBottom = 944;
 
 
 
@@ -69,3 +70,14 @@ dinoSpawn = R_Obj_DinoClass;
 		// Direction
 		dinoSpeedMult[3,0] = -1;
 		dinoSpeedMult[3,1] = 0;
+		
+// DinoChance
+
+normalDinoChance = 80;
+heavyDinoChance = 100;
+		
+
+		
+		
+		
+		

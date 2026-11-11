@@ -1,7 +1,7 @@
 // Health
 	dinohealth = 1;
 // Speed
-	dinoSpeed = 0.5;
+	dinoSpeed = 2;
 
 
 //Direction
@@ -15,13 +15,13 @@ dinoSpeedVarrationRangeUpper = 10;
 
 dinoSpeedVarration = random_range(dinoSpeedVarrationRangeLower,dinoSpeedVarrationRangeUpper)/100;
 
-	speedVarration = true;
+	speedVarration = false;
 
-	killMakesGoFaster = false;
+	killMakesGoFaster = true;
 
 if killMakesGoFaster == true
 {
-	dinoSpeedVarration += global.R_DinoKillCount/100;
+	dinoSpeed += global.R_DinoKillCount/100;
 }
 
 
@@ -33,3 +33,5 @@ if speedVarration == true
 // Score
 
 scoreWhenKilled = 1;
+
+ammored = false;

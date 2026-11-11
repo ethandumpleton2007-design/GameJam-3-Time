@@ -9,6 +9,16 @@
 	{
 		var _inst = instance_place(x, y, R_Obj_HitEffectClass);
 		
+		// Check for heavy hit if armored
+		if ammored == true
+		{
+			if _inst.heavy == false
+			{
+				return;	
+			}
+		}
+		
+		
 		dinohealth -= _inst.hitDamage;
 	
 	}

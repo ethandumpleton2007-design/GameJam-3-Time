@@ -51,21 +51,82 @@
 	
 	hitCooldown -= 1;
 	
-	
-	
-	if (mouse_check_button_pressed(mb_left) == true)
+	switch(curretState)
 	{
-		if (hitCooldown <= 0)
-		{
-			var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", hitObject);
-			with (_hit)
+		
+		case "Normal":
+		
+		
+			// Normal Hit
+			if (mouse_check_button_pressed(mb_left) == true)
 			{
-			    image_angle = other.hitDir;
+				if (hitCooldown <= 0)
+				{
+					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", hitObject);
+					with (_hit)
+					{
+					    image_angle = other.hitDir;
+					}
+			
+					with _hit
+					{
+						if place_meeting(x,y,R_Obj_DinoClass)
+						{
+							other.hitCooldown = 0;
+						}
+						else
+						{
+							other.hitCooldown = other.OtherhitCooldownConst;
+						}
+					}
+			
+				}
 			}
 			
-			hitCooldown = hitCooldownConst
+			//Switch to Charge hit
+			// Charge State
+			if (mouse_check_button_pressed(mb_right) == true)
+			{
+				if (hitCooldown <= 0)
+				{
+					curretState = "Charge";
+				}
+			}
 			
-		}
+		
+		break;
+		
+		case "Charge":
+		
+			// Charge State
+				OtherhitDely -=1;
+
+				if OtherhitDely <= 0
+				{
+					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", otherHitObject);
+					with (_hit)
+					{
+						image_angle = other.hitDir;
+					}
+			
+					with _hit
+					{
+						if place_meeting(x,y,R_Obj_DinoClass)
+						{
+							other.hitCooldown = 0;
+						}
+						else
+						{
+							other.hitCooldown = other.OtherhitCooldownConst;
+						}
+					}
+					OtherhitDely = OtherhitDelyConst;
+					
+					curretState = "Normal";
+					
+				}
+		
+		break;
 	}
 
 
