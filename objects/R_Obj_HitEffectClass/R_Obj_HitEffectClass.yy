@@ -9,8 +9,8 @@
   "name":"R_Obj_HitEffectClass",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Classes",
-    "path":"folders/Game/Cyrus/R_Objects/R_Classes.yy",
+    "name":"R_Hits",
+    "path":"folders/Game/Cyrus/R_Objects/R_Hits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

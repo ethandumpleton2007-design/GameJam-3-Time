@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_PlayerTemp",
-    "path":"sprites/R_Spr_PlayerTemp/R_Spr_PlayerTemp.yy",
+    "name":"R_Spr_PlayerFrontIdleTemp2",
+    "path":"sprites/R_Spr_PlayerFrontIdleTemp2/R_Spr_PlayerFrontIdleTemp2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

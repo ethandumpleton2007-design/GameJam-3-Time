@@ -1,3 +1,7 @@
+	// Dino Sprite
+	
+	sprite_index = dinoSpriteArray[faceAni]
+	
 	
 	// Dino Movement
 	x += (dinoSpeed * xspdMult);

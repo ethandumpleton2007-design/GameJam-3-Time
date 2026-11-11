@@ -9,8 +9,8 @@
   "name":"R_Obj_DinoClass",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Classes",
-    "path":"folders/Game/Cyrus/R_Objects/R_Classes.yy",
+    "name":"R_Dinos",
+    "path":"folders/Game/Cyrus/R_Objects/R_Dinos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_DinoTemp",
-    "path":"sprites/R_Spr_DinoTemp/R_Spr_DinoTemp.yy",
+    "name":"R_Spr_DinoLeftTemp",
+    "path":"sprites/R_Spr_DinoLeftTemp/R_Spr_DinoLeftTemp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

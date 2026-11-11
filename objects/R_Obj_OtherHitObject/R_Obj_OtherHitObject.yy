@@ -8,8 +8,8 @@
   "name":"R_Obj_OtherHitObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Objects",
-    "path":"folders/Game/Cyrus/R_Objects.yy",
+    "name":"R_Hits",
+    "path":"folders/Game/Cyrus/R_Objects/R_Hits.yy",
   },
   "parentObjectId":{
     "name":"R_Obj_HitEffectClass",

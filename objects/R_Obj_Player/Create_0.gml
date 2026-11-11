@@ -33,5 +33,24 @@ OtherhitDelyConst = 15;
 
 curretState = "Normal";
 
+// Sprite Control
+	
+faceAni = 1
+actionAni = 0
+	
+forward = 0;
+left = 1;
+back = 2;
+right = 3;
 
+idle = 0
+swing = 1;
+charge = 2;
+bigSwing = 3;
+
+
+playerSpriteArray[forward][idle] = R_Spr_PlayerFrontIdleTemp2;
+playerSpriteArray[left][idle] = R_Spr_PlayerIdleLeftTemp;
+playerSpriteArray[back][idle] = R_Spr_PlayerBackdleTemp;
+playerSpriteArray[right][idle] = R_Spr_PlayerIdleRightTemp;
 

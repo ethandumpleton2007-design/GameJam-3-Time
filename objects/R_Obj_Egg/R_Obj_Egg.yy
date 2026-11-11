@@ -9,8 +9,8 @@
   "name":"R_Obj_Egg",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Objects",
-    "path":"folders/Game/Cyrus/R_Objects.yy",
+    "name":"R_Other",
+    "path":"folders/Game/Cyrus/R_Objects/R_Other.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_EggTemp",
-    "path":"sprites/R_Spr_EggTemp/R_Spr_EggTemp.yy",
+    "name":"R_Spr_TempEgg2",
+    "path":"sprites/R_Spr_TempEgg2/R_Spr_TempEgg2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,7 +2,7 @@
 
 // Movement
 
-	// Left
+	// Right
 	if (keyboard_check_pressed(ord("D")) == true)
 	{
 		posOffsetY = 0;
@@ -10,9 +10,10 @@
 		hitDir = 180
 		hitOffsetX = hitOffsetConst;
 		hitOffsetY = 0;
+		faceAni = right;
 	}
 
-	// Right
+	// Left
 	if (keyboard_check_pressed(ord("A")) == true)
 	{
 		posOffsetY = 0;
@@ -20,6 +21,7 @@
 		hitDir = 0
 		hitOffsetX = -hitOffsetConst;
 		hitOffsetY = 0;
+		faceAni = left;
 	}
 
 	// Down
@@ -30,6 +32,7 @@
 		hitDir = 90
 		hitOffsetX = 0;
 		hitOffsetY = hitOffsetConst;
+		faceAni = forward
 	}
 
 	// Up
@@ -40,6 +43,7 @@
 		hitDir = 270
 		hitOffsetX = 0;
 		hitOffsetY = -hitOffsetConst;
+		faceAni = back
 	}
 
 	// Postions
@@ -56,6 +60,7 @@
 		
 		case "Normal":
 		
+			image_blend = c_white;
 		
 			// Normal Hit
 			if (mouse_check_button_pressed(mb_left) == true)
@@ -72,7 +77,23 @@
 					{
 						if place_meeting(x,y,R_Obj_DinoClass)
 						{
-							other.hitCooldown = 0;
+							
+							// If dino heavy doesn't make cool down zero
+							
+							var _dinoCheck = instance_place(x,y,R_Obj_DinoClass);
+							
+							if _dinoCheck.ammored == true
+							{
+								other.hitCooldown = other.OtherhitCooldownConst;
+							}
+							else
+							{
+								other.hitCooldown = 0;
+							
+								// Create Shine to Incate They did it right
+							
+								instance_create_layer(x , y , "Instances", R_Obj_HitShine);
+							}
 						}
 						else
 						{
@@ -99,10 +120,14 @@
 		case "Charge":
 		
 			// Charge State
+				image_blend = c_dkgray
+			
 				OtherhitDely -=1;
 
 				if OtherhitDely <= 0
 				{
+					image_blend = c_white;
+					
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", otherHitObject);
 					with (_hit)
 					{
@@ -114,6 +139,11 @@
 						if place_meeting(x,y,R_Obj_DinoClass)
 						{
 							other.hitCooldown = 0;
+							
+							// Create Shine to Incate They did it right
+							
+							instance_create_layer(x , y , "Instances", R_Obj_HitShine);
+							
 						}
 						else
 						{
@@ -130,7 +160,7 @@
 	}
 
 
-
+sprite_index = playerSpriteArray[faceAni][actionAni];
 
 
 

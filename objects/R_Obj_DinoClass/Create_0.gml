@@ -1,7 +1,7 @@
 // Health
 	dinohealth = 1;
 // Speed
-	dinoSpeed = 2;
+	dinoSpeed = 4;
 
 
 //Direction
@@ -34,4 +34,21 @@ if speedVarration == true
 
 scoreWhenKilled = 1;
 
+// Ammor
 ammored = false;
+
+// Sprite Control
+
+faceAni = 1
+	
+forward = 0;
+left = 1;
+back = 2;
+right = 3;
+
+dinoSpriteArray[forward] = R_Spr_DinoFrontTemp;
+dinoSpriteArray[left] = R_Spr_DinoLeftTemp;
+dinoSpriteArray[back] = R_Spr_DinoBackTemp;
+dinoSpriteArray[right] = R_Spr_DinoRightTemp;
+
+sprite_index = dinoSpriteArray[faceAni]

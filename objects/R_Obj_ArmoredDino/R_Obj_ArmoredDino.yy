@@ -8,8 +8,8 @@
   "name":"R_Obj_ArmoredDino",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Objects",
-    "path":"folders/Game/Cyrus/R_Objects.yy",
+    "name":"R_Dinos",
+    "path":"folders/Game/Cyrus/R_Objects/R_Dinos.yy",
   },
   "parentObjectId":{
     "name":"R_Obj_DinoClass",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_DinoStrongTemp",
-    "path":"sprites/R_Spr_DinoStrongTemp/R_Spr_DinoStrongTemp.yy",
+    "name":"R_Spr_DinoHeavyLeftTemp",
+    "path":"sprites/R_Spr_DinoHeavyLeftTemp/R_Spr_DinoHeavyLeftTemp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

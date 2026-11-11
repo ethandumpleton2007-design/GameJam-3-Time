@@ -10,8 +10,8 @@
   "name":"R_Obj_GameControl",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Objects",
-    "path":"folders/Game/Cyrus/R_Objects.yy",
+    "name":"R_Other",
+    "path":"folders/Game/Cyrus/R_Objects/R_Other.yy",
   },
   "parentObjectId":null,
   "persistent":false,
