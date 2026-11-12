@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"E_spr_HP_Full",
-    "path":"sprites/E_spr_HP_Full/E_spr_HP_Full.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

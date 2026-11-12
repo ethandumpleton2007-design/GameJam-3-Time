@@ -1,1 +1,2 @@
-Shooting = true;
+if(Reloading == false){
+Shooting = true;}

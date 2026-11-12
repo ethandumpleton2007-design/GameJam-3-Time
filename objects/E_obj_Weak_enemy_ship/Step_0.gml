@@ -2,7 +2,7 @@ if(activated){
 x += objectSpeed;
 
 if(objectHealth <= 0){
-	global.futureScore += 75
+	global.futureScore += 5
 	instance_destroy();}
 if(shoot = false){
 	shoot = true;

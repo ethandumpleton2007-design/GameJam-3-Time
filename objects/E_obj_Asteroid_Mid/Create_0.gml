@@ -1,2 +1,2 @@
-objectHealth = 8
+objectHealth = 5
 activated = false;

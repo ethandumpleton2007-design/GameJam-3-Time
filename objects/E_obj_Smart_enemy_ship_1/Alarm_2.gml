@@ -1,0 +1,2 @@
+halfVis = !halfVis
+alphaCooldown = false;

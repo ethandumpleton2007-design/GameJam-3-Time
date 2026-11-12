@@ -14,6 +14,7 @@ x += moveX + global.camMoveSpeed;}
 else{x += moveX;}
 
 moveY = EYinput * moveSpeed;
+global.playerYLocation = y;
 y += moveY;
 
 divideSpeed = isMovingX && isMovingY;
@@ -21,7 +22,7 @@ if(divideSpeed){
 	moveSpeed = 4 / 1.3;}
 else{moveSpeed = 4;}
 
-//Shoot animation
+//Shooting
 if(image_index = 9){
 image_index = 0;
 image_speed = 0;}
@@ -29,7 +30,13 @@ image_speed = 0;}
 if(image_index = 0){
 if(Shooting){
 image_speed = 1;
-instance_create_depth(x + 47, y + 25, depth - 1, E_obj_Player_Lazer)}}
+instance_create_depth(x + 47, y + 25, depth - 1, E_obj_Player_Lazer)
+global.currentAmmo -= 1;}}
+
+if(global.currentAmmo <= 0 && !Reloading){
+Shooting = false;
+Reloading = true;
+alarm[3] = reloadSpeed;}
 
 //Health, being hit, IFrames
 if(global.playerHealth <= 0){game_end();}

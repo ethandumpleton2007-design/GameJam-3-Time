@@ -1,2 +1,2 @@
 activated = false;
-objectHealth = 20;
+objectHealth = 10;
