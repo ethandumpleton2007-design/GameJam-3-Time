@@ -97,7 +97,7 @@
 						}
 						else
 						{
-							other.hitCooldown = other.OtherhitCooldownConst;
+							other.hitCooldown = other.hitCooldownConst;
 						}
 					}
 			
@@ -157,13 +157,23 @@
 				}
 		
 		break;
+		
+		case "Fuck You":
+			image_blend = c_red;	
+		
+		break;
+		
+		
 	}
 
 
 sprite_index = playerSpriteArray[faceAni][actionAni];
 
 
-
+if (global.R_GameOver == true)
+{
+	curretState = "Fuck You";
+}
 
 
 

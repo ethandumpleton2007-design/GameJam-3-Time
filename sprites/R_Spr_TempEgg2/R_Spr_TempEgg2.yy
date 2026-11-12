@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"R_Spr_TempEgg2",
   "bboxMode":0,
-  "bbox_bottom":62,
+  "bbox_bottom":60,
   "bbox_left":1,
   "bbox_right":62,
   "bbox_top":6,

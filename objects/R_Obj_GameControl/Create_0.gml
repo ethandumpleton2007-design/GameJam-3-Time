@@ -1,5 +1,9 @@
 
+randomise();
 
+// Spawning
+
+isSpawning = true;
 
 spawnCoolDown = 50;
 
@@ -129,5 +133,17 @@ dinoNumberTillNextWave[1] = 60;
 dinoNumberTillNextWave[2] = 90;
 dinoNumberTillNextWave[3] = 120;
 		
+		
+		
+		
+// Modes
 
+
+storyEndingScore = 75;
+
+		
+if (global.R_isHard == true)
+{
+	wave = 4;
+}
 		

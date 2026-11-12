@@ -1,7 +1,17 @@
 // Health
 	dinohealth = 1;
 // Speed
-	dinoSpeed = 4;
+
+	easyDinoSpeed = 2;
+	middleDinoSpeed = 3;
+	hardDinoSpeed = 4;
+
+	dinoSpeed = middleDinoSpeed;
+	
+	if global.R_isHard == true
+	{
+		dinoSpeed = hardDinoSpeed;
+	}
 
 
 //Direction
@@ -18,6 +28,8 @@ dinoSpeedVarration = random_range(dinoSpeedVarrationRangeLower,dinoSpeedVarratio
 	speedVarration = false;
 
 	killMakesGoFaster = true;
+	
+	clampSpeed = true;
 
 if killMakesGoFaster == true
 {
@@ -30,6 +42,10 @@ if speedVarration == true
 	dinoSpeed += dinoSpeedVarration;
 }
 
+if clampSpeed == true
+{
+	dinoSpeed = clamp(dinoSpeed,0,6);
+}
 // Score
 
 scoreWhenKilled = 1;

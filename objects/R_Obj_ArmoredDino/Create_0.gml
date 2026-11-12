@@ -3,7 +3,7 @@ event_inherited();
 
 ammored = true;
 
-heavyDinoSlowMulti = 0.75;
+heavyDinoSlowMulti = 0.50;
 
 dinoSpeed *= heavyDinoSlowMulti;
 

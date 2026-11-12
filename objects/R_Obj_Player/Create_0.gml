@@ -19,7 +19,7 @@ hitOffsetY = 0;
 hitObject = R_Obj_HitEffectClass;
 
 hitCooldown = 0;
-hitCooldownConst = 18;
+hitCooldownConst = 30;
 
 // Other Hitting things
 
