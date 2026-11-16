@@ -13,3 +13,5 @@ dinoSpriteArray[back] = R_Spr_SpeedyDinoGoingUp;
 dinoSpriteArray[right] = R_Spr_SpeedyDinoGoingLeft;
 
 deathSprite = R_Spr_SpeedyDinoDeath
+
+bowling = true;

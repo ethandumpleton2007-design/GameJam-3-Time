@@ -125,6 +125,7 @@
     {"id":{"name":"R_Spr_TempBackround","path":"sprites/R_Spr_TempBackround/R_Spr_TempBackround.yy",},},
     {"id":{"name":"R_Spr_TempEgg2","path":"sprites/R_Spr_TempEgg2/R_Spr_TempEgg2.yy",},},
     {"id":{"name":"R_TempStarShine","path":"sprites/R_TempStarShine/R_TempStarShine.yy",},},
+    {"id":{"name":"Spr_TempBackround2","path":"sprites/Spr_TempBackround2/Spr_TempBackround2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

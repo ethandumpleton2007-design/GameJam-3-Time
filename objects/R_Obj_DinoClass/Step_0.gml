@@ -47,23 +47,44 @@
 		global.R_Score += scoreWhenKilled;
 		global.R_DinoKillCount += 1;
 		
+		//	Check if died from heavy hit 
+		
+		if (place_meeting(x,y,R_Obj_OtherHitObject))
+		{
+			diedFromHeavyHit = true;
+		}
+		
 		//Create Death animation
 		
 		var _death = instance_create_layer(x,y,"Instances", R_Obj_FlyAwayDino);
 		
 		with(_death)
 		{
-			xDir = other.xspdMult * -1;
-			yDir = other.yspdMult * -1;
-			
-			if xDir == 0
+			if (other.bowling == true and other.diedFromHeavyHit == true)
 			{
-				xDir = choose(-1,1);
+				xDir = other.xspdMult * -1;
+				yDir = other.yspdMult * -1;
+				
+				bowling = true;
+				
+				image_blend = c_purple;
 			}
-			
-			if yDir == 0
+			else
 			{
-				yDir = choose(-1,1);
+			
+				xDir = other.xspdMult * -1;
+				yDir = other.yspdMult * -1;
+			
+				if xDir == 0
+				{
+					xDir = choose(-1,1);
+				}
+			
+				if yDir == 0
+				{
+					yDir = choose(-1,1);
+				}
+			
 			}
 			
 			dieSpeed = other.dinoSpeed * 1.5;

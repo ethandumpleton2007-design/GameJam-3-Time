@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_DinoHeavyLeftTemp",
-    "path":"sprites/R_Spr_DinoHeavyLeftTemp/R_Spr_DinoHeavyLeftTemp.yy",
+    "name":"R_Spr_AmoredDinoGoingRight",
+    "path":"sprites/R_Spr_AmoredDinoGoingRight/R_Spr_AmoredDinoGoingRight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

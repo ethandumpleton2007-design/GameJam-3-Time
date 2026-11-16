@@ -53,6 +53,10 @@ scoreWhenKilled = 1;
 // Ammor
 ammored = false;
 
+// Bowling
+bowling = false;
+diedFromHeavyHit = false;
+
 // Sprite Control
 
 faceAni = 1
