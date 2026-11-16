@@ -68,6 +68,8 @@
 				bowling = true;
 				
 				image_blend = c_purple;
+				
+				dieSpeed = other.bowlSpeed  ;
 			}
 			else
 			{
@@ -84,10 +86,12 @@
 				{
 					yDir = choose(-1,1);
 				}
+				
+				dieSpeed = other.dinoSpeed * 1.5;
 			
 			}
 			
-			dieSpeed = other.dinoSpeed * 1.5;
+			
 			
 			spriteUsed = other.deathSprite;
 			

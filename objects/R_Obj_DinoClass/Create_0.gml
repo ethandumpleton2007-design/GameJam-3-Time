@@ -33,7 +33,7 @@ dinoSpeedVarration = random_range(dinoSpeedVarrationRangeLower,dinoSpeedVarratio
 
 if killMakesGoFaster == true
 {
-	dinoSpeed += global.R_DinoKillCount/100;
+	dinoSpeed += global.R_Score/100;
 }
 
 
@@ -56,6 +56,7 @@ ammored = false;
 // Bowling
 bowling = false;
 diedFromHeavyHit = false;
+bowlSpeed = 1;
 
 // Sprite Control
 
