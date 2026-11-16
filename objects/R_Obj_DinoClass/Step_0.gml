@@ -47,20 +47,41 @@
 		global.R_Score += scoreWhenKilled;
 		global.R_DinoKillCount += 1;
 		
+		//Create Death animation
+		
+		var _death = instance_create_layer(x,y,"Instances", R_Obj_FlyAwayDino);
+		
+		with(_death)
+		{
+			xDir = other.xspdMult * -1;
+			yDir = other.yspdMult * -1;
+			
+			if xDir == 0
+			{
+				xDir = choose(-1,1);
+			}
+			
+			if yDir == 0
+			{
+				yDir = choose(-1,1);
+			}
+			
+			dieSpeed = other.dinoSpeed * 1.5;
+			
+			spriteUsed = other.deathSprite;
+			
+			
+			
+		}
+		
+		
 		instance_destroy();
 		
 	}
 	
 	
 	// Just to not cause a memory leak
-	if x > room_width or x < 0
-	{
-		instance_destroy()	
-	}
-	if y > room_height or y < 0
-	{
-		instance_destroy()	
-	}
+	R_DestoryIfOffScreen()
 	
 	
 	

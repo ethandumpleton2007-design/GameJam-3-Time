@@ -67,4 +67,6 @@ dinoSpriteArray[left] = R_Spr_DinoGoingRight;
 dinoSpriteArray[back] = R_Spr_DinoGoingUp;
 dinoSpriteArray[right] = R_Spr_DinoGoingLeft;
 
+deathSprite = R_Spr_DinoDeath
+
 sprite_index = dinoSpriteArray[faceAni]
