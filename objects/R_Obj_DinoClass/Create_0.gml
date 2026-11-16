@@ -62,9 +62,9 @@ left = 1;
 back = 2;
 right = 3;
 
-dinoSpriteArray[forward] = R_Spr_DinoFrontTemp;
-dinoSpriteArray[left] = R_Spr_DinoLeftTemp;
-dinoSpriteArray[back] = R_Spr_DinoBackTemp;
-dinoSpriteArray[right] = R_Spr_DinoRightTemp;
+dinoSpriteArray[forward] = R_Spr_DinoGoingDown;
+dinoSpriteArray[left] = R_Spr_DinoGoingRight;
+dinoSpriteArray[back] = R_Spr_DinoGoingUp;
+dinoSpriteArray[right] = R_Spr_DinoGoingLeft;
 
 sprite_index = dinoSpriteArray[faceAni]

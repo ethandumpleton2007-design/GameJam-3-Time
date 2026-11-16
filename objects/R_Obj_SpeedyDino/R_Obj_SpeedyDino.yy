@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_DinoSpeedyLeftTemp",
-    "path":"sprites/R_Spr_DinoSpeedyLeftTemp/R_Spr_DinoSpeedyLeftTemp.yy",
+    "name":"R_Spr_SpeedyDinoGoingRight",
+    "path":"sprites/R_Spr_SpeedyDinoGoingRight/R_Spr_SpeedyDinoGoingRight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

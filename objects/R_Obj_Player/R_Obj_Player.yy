@@ -10,8 +10,8 @@
   "name":"R_Obj_Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"R_Objects",
-    "path":"folders/Game/Cyrus/R_Objects.yy",
+    "name":"R_Player",
+    "path":"folders/Game/Cyrus/R_Objects/R_Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_PlayerFrontIdleTemp2",
-    "path":"sprites/R_Spr_PlayerFrontIdleTemp2/R_Spr_PlayerFrontIdleTemp2.yy",
+    "name":"R_Spr_PlayerIdleForward",
+    "path":"sprites/R_Spr_PlayerIdleForward/R_Spr_PlayerIdleForward.yy",
   },
   "spriteMaskId":null,
   "visible":true,

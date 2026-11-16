@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_HitTemp",
-    "path":"sprites/R_Spr_HitTemp/R_Spr_HitTemp.yy",
+    "name":"R_Spr_Hit",
+    "path":"sprites/R_Spr_Hit/R_Spr_Hit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

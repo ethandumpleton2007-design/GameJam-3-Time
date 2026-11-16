@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_OtherHitTemp",
-    "path":"sprites/R_Spr_OtherHitTemp/R_Spr_OtherHitTemp.yy",
+    "name":"R_Spr_StrongHit",
+    "path":"sprites/R_Spr_StrongHit/R_Spr_StrongHit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

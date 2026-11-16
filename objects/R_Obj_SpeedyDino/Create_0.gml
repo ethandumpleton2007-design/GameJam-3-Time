@@ -7,7 +7,7 @@ dinoSpeed *= speedySpeedMult;
 
 // Sprites
 
-dinoSpriteArray[forward] = R_Spr_DinoSpeedyFrontTemp;
-dinoSpriteArray[left] = R_Spr_DinoSpeedyLeftTemp;
-dinoSpriteArray[back] = R_Spr_DinoSpeedyBackTemp;
-dinoSpriteArray[right] = R_Spr_DinoSpeedyRightTemp;
+dinoSpriteArray[forward] = R_Spr_SpeedyDinoGoingDown;
+dinoSpriteArray[left] = R_Spr_SpeedyDinoGoingRight;
+dinoSpriteArray[back] = R_Spr_SpeedyDinoGoingUp;
+dinoSpriteArray[right] = R_Spr_SpeedyDinoGoingLeft;

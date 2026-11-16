@@ -4,3 +4,4 @@ global.R_DinoKillCount = 0;
 global.R_GameOver = false;
 global.R_isEndless = true;
 global.R_isHard = false;
+global.R_DinoGameWon = false

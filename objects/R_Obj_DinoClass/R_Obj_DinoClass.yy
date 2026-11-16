@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_DinoLeftTemp",
-    "path":"sprites/R_Spr_DinoLeftTemp/R_Spr_DinoLeftTemp.yy",
+    "name":"R_Spr_DinoGoingRight",
+    "path":"sprites/R_Spr_DinoGoingRight/R_Spr_DinoGoingRight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

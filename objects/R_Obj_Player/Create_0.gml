@@ -48,9 +48,27 @@ swing = 1;
 charge = 2;
 bigSwing = 3;
 
+// Idle Control
+backToIdle = 0;
+backToIdleConst = 15;
 
-playerSpriteArray[forward][idle] = R_Spr_PlayerFrontIdleTemp2;
-playerSpriteArray[left][idle] = R_Spr_PlayerIdleLeftTemp;
-playerSpriteArray[back][idle] = R_Spr_PlayerBackdleTemp;
-playerSpriteArray[right][idle] = R_Spr_PlayerIdleRightTemp;
+// Sprite Ararys
+playerSpriteArray[forward][idle] = R_Spr_PlayerIdleForward;
+playerSpriteArray[left][idle] = R_Spr_PlayerIdleLeft;
+playerSpriteArray[back][idle] = R_Spr_PlayerIdleBack;
+playerSpriteArray[right][idle] = R_Spr_PlayerIdleRight;
 
+playerSpriteArray[forward][swing] = R_Spr_PlayerSwingForward;
+playerSpriteArray[left][swing] = R_Spr_PlayerSwingLeft;
+playerSpriteArray[back][swing] = R_Spr_PlayerSwingBack;
+playerSpriteArray[right][swing] = R_Spr_PlayerSwingRight;
+
+playerSpriteArray[forward][charge] = R_Spr_PlayerChargeForward;
+playerSpriteArray[left][charge] = R_Spr_PlayerChargeLeft;
+playerSpriteArray[back][charge] = R_Spr_PlayerChargeBack;
+playerSpriteArray[right][charge] = R_Spr_PlayerChargeRight;
+
+playerSpriteArray[forward][bigSwing] = R_Spr_PlayerBigSwingForward;
+playerSpriteArray[left][bigSwing] = R_Spr_PlayerBigSwingLeft;
+playerSpriteArray[back][bigSwing] = R_Spr_PlayerBigSwingBack;
+playerSpriteArray[right][bigSwing] = R_Spr_PlayerBigSwingRight;

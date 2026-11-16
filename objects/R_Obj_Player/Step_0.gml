@@ -67,10 +67,19 @@
 			{
 				if (hitCooldown <= 0)
 				{
+					//Change ANimation
+					actionAni = swing;
+					backToIdle = backToIdleConst;
+					
+					// Create Swing
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", hitObject);
 					with (_hit)
 					{
 					    image_angle = other.hitDir;
+						if (other.hitDir == 270 or other.hitDir == 90)
+						{
+							image_yscale = -1;	
+						}
 					}
 			
 					with _hit
@@ -122,16 +131,27 @@
 			// Charge State
 				image_blend = c_dkgray
 			
+					actionAni = charge;
+					backToIdle = backToIdleConst*10;
+			
+			
 				OtherhitDely -=1;
 
 				if OtherhitDely <= 0
 				{
 					image_blend = c_white;
 					
+					actionAni = bigSwing;
+					backToIdle = backToIdleConst;
+					
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", otherHitObject);
 					with (_hit)
 					{
-						image_angle = other.hitDir;
+					    image_angle = other.hitDir;
+						if (other.hitDir == 270 or other.hitDir == 90)
+						{
+							image_yscale = -1;	
+						}
 					}
 			
 					with _hit
@@ -165,6 +185,20 @@
 		
 		
 	}
+
+
+// Change Sprite Back to idle after a time
+if actionAni != idle
+{
+	backToIdle -= 1
+	if backToIdle <= 0
+	{
+		actionAni = idle;
+	}
+	
+}
+
+
 
 
 sprite_index = playerSpriteArray[faceAni][actionAni];
