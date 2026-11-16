@@ -1,3 +1,4 @@
+if(!global.futureLevelComplete)
 //Checks inputs
 EXinput = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 EYinput = keyboard_check(ord("S")) - keyboard_check(ord("W"))

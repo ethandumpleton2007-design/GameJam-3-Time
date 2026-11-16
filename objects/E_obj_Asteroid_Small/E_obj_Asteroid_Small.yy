@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_spr_Placeholder_Asteroid_Small",
-    "path":"sprites/E_spr_Placeholder_Asteroid_Small/E_spr_Placeholder_Asteroid_Small.yy",
+    "name":"E_spr_brown_meteor__pixel_32x32",
+    "path":"sprites/E_spr_brown_meteor__pixel_32x32/E_spr_brown_meteor__pixel_32x32.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,5 +1,1 @@
-if(!isHit){
-objectHealth -= 1;
-halfVis = true;
-isHit = true;
-alarm[3] = global.IFrameTime;}
+//This enemy can't be attacked through normal means.

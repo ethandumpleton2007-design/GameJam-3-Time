@@ -1,2 +1,2 @@
 Reloading = false;
-global.currentAmmo = 12;
+global.currentAmmo = global.maxAmmo;

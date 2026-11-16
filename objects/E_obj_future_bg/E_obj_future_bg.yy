@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_SPR_Future_Minigame_BG",
-    "path":"sprites/E_SPR_Future_Minigame_BG/E_SPR_Future_Minigame_BG.yy",
+    "name":"E_spr_saturn_background_Edit",
+    "path":"sprites/E_spr_saturn_background_Edit/E_spr_saturn_background_Edit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,13 +2,9 @@ if(activated){
 x += global.camMoveSpeed;
 
 if(global.playerYLocation < y){
-canShoot = false;
 y -= verticalSpeed;}
 if(global.playerYLocation > y){
-canShoot = false;
 y += verticalSpeed;}
-if(global.playerYLocation == y){
-canShoot = true;}
 
 if(isHit && !alphaCooldown){
 alphaCooldown = true;

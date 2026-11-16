@@ -4,8 +4,8 @@ global.IFrameTime = 115;
 global.IFramesInvis = false;
 global.playerYLocation = 0;
 
-global.maxAmmo = 12;
-global.currentAmmo = 12;
+global.maxAmmo = 15;
+global.currentAmmo = 15;
 reloadSpeed = 180;
 
 moveSpeed = 4;

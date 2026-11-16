@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_spr_speedy_asteroid_small",
-    "path":"sprites/E_spr_speedy_asteroid_small/E_spr_speedy_asteroid_small.yy",
+    "name":"E_spr_fast_meteor_1",
+    "path":"sprites/E_spr_fast_meteor_1/E_spr_fast_meteor_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

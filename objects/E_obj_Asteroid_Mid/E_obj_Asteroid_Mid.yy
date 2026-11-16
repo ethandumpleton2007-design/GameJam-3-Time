@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_spr_Placeholder_Asteroid_Mid",
-    "path":"sprites/E_spr_Placeholder_Asteroid_Mid/E_spr_Placeholder_Asteroid_Mid.yy",
+    "name":"E_spr_brown_meteor_pixel_64x64",
+    "path":"sprites/E_spr_brown_meteor_pixel_64x64/E_spr_brown_meteor_pixel_64x64.yy",
   },
   "spriteMaskId":null,
   "visible":true,

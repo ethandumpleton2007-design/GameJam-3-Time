@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_spr_Placeholder_Asteroid_Large",
-    "path":"sprites/E_spr_Placeholder_Asteroid_Large/E_spr_Placeholder_Asteroid_Large.yy",
+    "name":"E_spr_brown_meteor_large",
+    "path":"sprites/E_spr_brown_meteor_large/E_spr_brown_meteor_large.yy",
   },
   "spriteMaskId":null,
   "visible":true,
