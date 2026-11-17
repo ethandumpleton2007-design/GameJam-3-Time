@@ -1,0 +1,1 @@
+globalresetRoom = false

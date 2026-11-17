@@ -1,0 +1,1 @@
+if(global.futureLevelComplete){draw_self();}

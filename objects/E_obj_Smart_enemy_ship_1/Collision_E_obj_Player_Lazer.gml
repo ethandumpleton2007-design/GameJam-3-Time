@@ -1,0 +1,1 @@
+//This enemy can't be attacked through normal means.

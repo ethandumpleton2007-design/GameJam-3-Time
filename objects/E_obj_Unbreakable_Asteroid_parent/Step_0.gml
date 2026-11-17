@@ -1,0 +1,2 @@
+if(activated)
+x += objectSpeed;

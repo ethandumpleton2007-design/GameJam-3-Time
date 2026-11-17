@@ -1,0 +1,1 @@
+global.currentAmmo = 0	

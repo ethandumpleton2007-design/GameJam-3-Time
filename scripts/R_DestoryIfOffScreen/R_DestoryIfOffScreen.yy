@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"R_DestoryIfOffScreen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"R_DestoryIfOffScreen",
+  "parent":{
+    "name":"R_Scripts",
+    "path":"folders/Cyrus_Game/Cyrus/R_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
