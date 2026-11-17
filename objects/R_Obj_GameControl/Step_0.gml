@@ -45,6 +45,11 @@ if isSpawning == true
 		// Cooldown
 		spawnCoolDownCount = spawnCoolDown + irandom_range(spawnCoolDownVarrationDownRange,spawnCoolDownVarrationUpRange) - clamp(floor(global.R_Score/10),0,10);
 	
+		if global.R_GameOver == true
+		{
+			spawnCoolDownCount = 0
+		}
+	
 	}
 
 	// State machine for dino spawn varribles

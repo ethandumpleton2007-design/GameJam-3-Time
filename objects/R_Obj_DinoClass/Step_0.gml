@@ -44,7 +44,10 @@
 	// Kill if dead
 	if (dinohealth <= 0)
 	{
-		global.R_Score += scoreWhenKilled;
+		if global.R_GameOver != true
+		{
+			global.R_Score += scoreWhenKilled;
+		}
 		global.R_DinoKillCount += 1;
 		
 		//	Check if died from heavy hit 
