@@ -1,1 +1,2 @@
-global.futureLevelComplete = true;
+global.futureLevelComplete = true
+room_goto(BeforeHadi);
