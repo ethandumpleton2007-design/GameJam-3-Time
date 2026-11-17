@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"welldone",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.1148527,
+  "exportDir":"",
+  "name":"welldone",
+  "parent":{
+    "name":"Cyurus_Sounds",
+    "path":"folders/Cyrus_Game/Cyrus/R_Sounds/Cyurus_Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"welldone.wav",
+  "volume":1.0,
+}

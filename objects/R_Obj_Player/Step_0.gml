@@ -1,6 +1,8 @@
-
-
 // Movement
+
+	// SOUND: remember position before input
+	var _oldOffsetX = posOffsetX;
+	var _oldOffsetY = posOffsetY;
 
 	// Right
 	if (keyboard_check_pressed(ord("D")) == true)
@@ -46,6 +48,12 @@
 		faceAni = back
 	}
 
+	// SOUND: move
+	if (posOffsetX != _oldOffsetX || posOffsetY != _oldOffsetY)
+	{
+		audio_play_sound(footstep05, 5, false, 0.6, 0, random_range(0.9, 1.1));
+	}
+
 	// Postions
 	x = eggPosx + posOffsetX;
 	y = eggPosy + posOffsetY;
@@ -70,6 +78,9 @@
 					//Change ANimation
 					actionAni = swing;
 					backToIdle = backToIdleConst;
+					
+					// SOUND: light swing
+					audio_play_sound(knifeSlice, 10, false, 0.8, 0, random_range(0.95, 1.1));
 					
 					// Create Swing
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", hitObject);
@@ -144,6 +155,9 @@
 					actionAni = bigSwing;
 					backToIdle = backToIdleConst;
 					
+					// SOUND: heavy swing
+					audio_play_sound(knifeSlice2, 10, false, 1, 0, random_range(0.7, 0.8));
+					
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", otherHitObject);
 					with (_hit)
 					{
@@ -208,6 +222,3 @@ if (global.R_GameOver == true)
 {
 	curretState = "Fuck You";
 }
-
-
-

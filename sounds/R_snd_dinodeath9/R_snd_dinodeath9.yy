@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"R_snd_dinodeath9",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.83301586,
+  "exportDir":"",
+  "name":"R_snd_dinodeath9",
+  "parent":{
+    "name":"exewinDeathSoundsPack",
+    "path":"folders/Cyrus_Game/Cyrus/R_Sounds/Cyurus_Sounds/exewinDeathSoundsPack.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"R_snd_dinodeath9.ogg",
+  "volume":1.0,
+}
