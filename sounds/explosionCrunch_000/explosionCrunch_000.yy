@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"explosionCrunch_000",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.77746034,
+  "exportDir":"",
+  "name":"explosionCrunch_000",
+  "parent":{
+    "name":"E_sound",
+    "path":"folders/E_MINIGAME_FUTURE/E_sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"explosionCrunch_000.ogg",
+  "volume":1.0,
+}

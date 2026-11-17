@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"c1811_f1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":100.83266,
+  "exportDir":"",
+  "name":"c1811_f1",
+  "parent":{
+    "name":"E_sound",
+    "path":"folders/E_MINIGAME_FUTURE/E_sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"c1811_f1.mp3",
+  "volume":1.0,
+}

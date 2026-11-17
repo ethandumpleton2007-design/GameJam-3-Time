@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"forceField_002",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.9550794,
+  "exportDir":"",
+  "name":"forceField_002",
+  "parent":{
+    "name":"E_sound",
+    "path":"folders/E_MINIGAME_FUTURE/E_sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"forceField_002.ogg",
+  "volume":1.0,
+}
