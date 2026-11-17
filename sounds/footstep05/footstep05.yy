@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"footstep05",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.27578232,
+  "exportDir":"",
+  "name":"footstep05",
+  "parent":{
+    "name":"Cyurus_Sounds",
+    "path":"folders/Cyrus_Game/Cyrus/R_Sounds/Cyurus_Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"footstep05.ogg",
+  "volume":1.0,
+}

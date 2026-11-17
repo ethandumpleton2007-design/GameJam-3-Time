@@ -1,4 +1,3 @@
-
 if isSpawning == true
 {
 	spawnCoolDownCount -= 1;
@@ -130,8 +129,29 @@ if (global.R_isEndless == false)
 	{
 		isSpawning = false;
 		R_TheFuctionThatKilledTheDinos();
+		
+		// SOUND: win, 1 second later (only the first time)
+		if (global.R_DinoGameWon == false)
+		{
+			call_later(1, time_source_units_seconds, method(undefined, function()
+			{
+				audio_play_sound(welldone, 30, false);
+			}));
+		}
+		
 		global.R_DinoGameWon = true;
 	}
+}
+// MUSIC: loop until win or lose
+var _music = Juhani_Junkala__Retro_Game_Music_Pack__Level_2;
+
+if (global.R_GameOver == true || global.R_DinoGameWon == true)
+{
+	audio_stop_sound(_music);
+}
+else if (!audio_is_playing(_music))
+{
+	audio_play_sound(_music, 1, true, 0.3);
 }
 
 
@@ -139,11 +159,3 @@ if (global.R_isEndless == false)
 
 
 //wave till
-
-
-
-
-
-
-
-
