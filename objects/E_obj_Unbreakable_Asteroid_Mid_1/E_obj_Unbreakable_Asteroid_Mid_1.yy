@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_spr_UnbreakablePlaceholder_Asteroid_Mid_1",
-    "path":"sprites/E_spr_UnbreakablePlaceholder_Asteroid_Mid_1/E_spr_UnbreakablePlaceholder_Asteroid_Mid_1.yy",
+    "name":"E_spr_White_Medium_Meteor",
+    "path":"sprites/E_spr_White_Medium_Meteor/E_spr_White_Medium_Meteor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
