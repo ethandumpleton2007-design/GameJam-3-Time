@@ -161,12 +161,14 @@
     {"name":"inst_497C5C6F","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_2E4CEC13","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_5452F3B7","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
+    {"name":"inst_34AF0854","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"instance_winScreen","depth":-300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"instance_Screens","depth":-300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1FCEDDE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FCEDDE4","objectId":{"name":"E_obj_Level_Win_Screen","path":"objects/E_obj_Level_Win_Screen/E_obj_Level_Win_Screen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.053125,"scaleY":1.0,"x":-15.0,"y":0.0,},
-      ],"layers":[],"name":"instance_winScreen","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+        {"$GMRInstance":"v4","%Name":"inst_34AF0854","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34AF0854","objectId":{"name":"E_obj_GameOverScreen","path":"objects/E_obj_GameOverScreen/E_obj_GameOverScreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-15.0,"y":0.0,},
+      ],"layers":[],"name":"instance_Screens","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_51CA350F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51CA350F","objectId":{"name":"E_obj_Weak_enemy_ship","path":"objects/E_obj_Weak_enemy_ship/E_obj_Weak_enemy_ship.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"E_obj_Weak_enemy_ship","path":"objects/E_obj_Weak_enemy_ship/E_obj_Weak_enemy_ship.yy",},"propertyId":{"name":"objectSpeed","path":"objects/E_obj_Weak_enemy_ship/E_obj_Weak_enemy_ship.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
