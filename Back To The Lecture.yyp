@@ -158,6 +158,7 @@
     {"id":{"name":"explosionCrunch_004","path":"sounds/explosionCrunch_004/explosionCrunch_004.yy",},},
     {"id":{"name":"footstep05","path":"sounds/footstep05/footstep05.yy",},},
     {"id":{"name":"forceField_002","path":"sounds/forceField_002/forceField_002.yy",},},
+    {"id":{"name":"freesound_community_bonk_sound_effect_36055","path":"sounds/freesound_community_bonk_sound_effect_36055/freesound_community_bonk_sound_effect_36055.yy",},},
     {"id":{"name":"game_over_bad_chest","path":"sounds/game_over_bad_chest/game_over_bad_chest.yy",},},
     {"id":{"name":"Juhani_Junkala__Retro_Game_Music_Pack__Level_1","path":"sounds/Juhani_Junkala__Retro_Game_Music_Pack__Level_1/Juhani_Junkala__Retro_Game_Music_Pack__Level_1.yy",},},
     {"id":{"name":"Juhani_Junkala__Retro_Game_Music_Pack__Level_2","path":"sounds/Juhani_Junkala__Retro_Game_Music_Pack__Level_2/Juhani_Junkala__Retro_Game_Music_Pack__Level_2.yy",},},
@@ -328,8 +329,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"E_Minigame_Future","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},},
     {"roomId":{"name":"R_DinoRoom","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},},
+    {"roomId":{"name":"E_Minigame_Future","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},},
     {"roomId":{"name":"HadiMinigame","path":"rooms/HadiMinigame/HadiMinigame.yy",},},
     {"roomId":{"name":"BeforeHadi","path":"rooms/BeforeHadi/BeforeHadi.yy",},},
     {"roomId":{"name":"EndingScreen","path":"rooms/EndingScreen/EndingScreen.yy",},},

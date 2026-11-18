@@ -50,10 +50,10 @@
 		}
 		global.R_DinoKillCount += 1;
 		
-		// SOUND: random dino death
+		// SOUND: random dino death (louder)
 		audio_play_sound(choose(R_snd_dinodeath1, R_snd_dinodeath2, R_snd_dinodeath3,
 			R_snd_dinodeath4, R_snd_dinodeath5, R_snd_dinodeath6,
-			R_snd_dinodeath7, R_snd_dinodeath8, R_snd_dinodeath9), 15, false, 1, 0, random_range(0.9, 1.1));
+			R_snd_dinodeath7, R_snd_dinodeath8, R_snd_dinodeath9), 15, false, 4, 0, random_range(0.9, 1.1));
 		
 		//	Check if died from heavy hit 
 		

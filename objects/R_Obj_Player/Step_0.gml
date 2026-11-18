@@ -79,8 +79,8 @@
 					actionAni = swing;
 					backToIdle = backToIdleConst;
 					
-					// SOUND: light swing
-					audio_play_sound(knifeSlice, 10, false, 0.8, 0, random_range(0.95, 1.1));
+					// SOUND: light attack (bonk, skips the first 0.3s)
+					audio_play_sound(freesound_community_bonk_sound_effect_36055, 10, false, 1, 0.3, random_range(0.95, 1.1));
 					
 					// Create Swing
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", hitObject);
@@ -155,8 +155,16 @@
 					actionAni = bigSwing;
 					backToIdle = backToIdleConst;
 					
-					// SOUND: heavy swing
-					audio_play_sound(knifeSlice2, 10, false, 1, 0, random_range(0.7, 0.8));
+					// SOUND: heavy attack (bonk, deeper, with reverb, skips the first 0.3s)
+					// Sets up the reverb the first time only
+					if (!variable_global_exists("R_HeavyHitEmitter"))
+					{
+						global.R_HeavyHitBus = audio_bus_create();
+						global.R_HeavyHitBus.effects[0] = audio_effect_create(AudioEffectType.Reverb1, { size: 0.7, damp: 0.4, mix: 0.35 });
+						global.R_HeavyHitEmitter = audio_emitter_create();
+						audio_emitter_bus(global.R_HeavyHitEmitter, global.R_HeavyHitBus);
+					}
+					audio_play_sound_on(global.R_HeavyHitEmitter, freesound_community_bonk_sound_effect_36055, false, 10, 1, 0.3, random_range(0.7, 0.8));
 					
 					var _hit = instance_create_layer(x + hitOffsetX, y + hitOffsetY, "Instances", otherHitObject);
 					with (_hit)

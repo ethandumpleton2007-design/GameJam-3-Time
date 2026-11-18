@@ -15,7 +15,7 @@ image_index = eggHealth
 		// SOUND: lose voice, 1 second later so it doesn't talk over the crack
 		call_later(1, time_source_units_seconds, method(undefined, function()
 		{
-			audio_play_sound(letstryagain, 30, false, 1.5);
+			audio_play_sound(letstryagain, 30, false, 4);
 		}));
 		
 		instance_destroy();

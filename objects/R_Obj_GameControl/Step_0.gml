@@ -135,7 +135,7 @@ if (global.R_isEndless == false)
 		{
 			call_later(1, time_source_units_seconds, method(undefined, function()
 			{
-				audio_play_sound(welldone, 30, false);
+				audio_play_sound(welldone, 30, false, 4);
 			}));
 		}
 		
