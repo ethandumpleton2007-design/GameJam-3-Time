@@ -1,0 +1,1 @@
+if(global.playerHealth <= 0){draw_self();}

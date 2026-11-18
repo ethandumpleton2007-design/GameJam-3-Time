@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"E_spr_White_Big_Meteor",
-    "path":"sprites/E_spr_White_Big_Meteor/E_spr_White_Big_Meteor.yy",
+    "name":"E_spr_White_Big_Meteor145",
+    "path":"sprites/E_spr_White_Big_Meteor145/E_spr_White_Big_Meteor145.yy",
   },
   "spriteMaskId":null,
   "visible":true,

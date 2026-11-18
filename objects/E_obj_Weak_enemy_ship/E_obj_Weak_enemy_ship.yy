@@ -15,8 +15,8 @@
   "name":"E_obj_Weak_enemy_ship",
   "overriddenProperties":[],
   "parent":{
-    "name":"E_Placeholder_Sprites",
-    "path":"folders/E_MINIGAME_FUTURE/E_Placeholder_Sprites.yy",
+    "name":"E_Objects",
+    "path":"folders/E_MINIGAME_FUTURE/E_Objects.yy",
   },
   "parentObjectId":{
     "name":"E_obj_enemy_template",

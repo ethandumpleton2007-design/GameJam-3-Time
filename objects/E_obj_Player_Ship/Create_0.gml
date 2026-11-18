@@ -20,6 +20,7 @@ divideSpeed = false;
 isColliding = false;
 Shooting = false;
 Reloading = false;
+gameOver = false;
 
 sprite_index = E_spr_Placeholder_Player_Ship
 image_alpha = 1

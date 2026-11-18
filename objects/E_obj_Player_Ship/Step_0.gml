@@ -1,4 +1,5 @@
-if(!global.futureLevelComplete)
+if(!global.futureLevelComplete && !gameOver)
+
 //Checks inputs
 EXinput = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 EYinput = keyboard_check(ord("S")) - keyboard_check(ord("W"))
@@ -22,6 +23,7 @@ divideSpeed = isMovingX && isMovingY;
 if(divideSpeed){
 	moveSpeed = 4 / 1.3;}
 else{moveSpeed = 4;}
+
 
 //SOUND: engine loops while the ship is moving
 var _shipMoving = (EXinput != 0 || EYinput != 0) && !global.futureLevelComplete && global.playerHealth > 0;
@@ -62,7 +64,8 @@ if (variable_instance_exists(id, "lastPlayerHealth") && global.playerHealth < la
 	audio_play_sound(forceField_002, 15, false);}
 lastPlayerHealth = global.playerHealth;
 
-if(global.playerHealth <= 0){game_end();}
+if(global.playerHealth <= 0){
+	gameOver = true;}
 
 //This isnt the best way to go about this, but i will figure something out later lol
 if(global.IFrames = true && global.IFramesInvis){
