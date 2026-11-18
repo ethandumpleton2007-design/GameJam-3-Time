@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"E_spr_wormhole_end",
-    "path":"sprites/E_spr_wormhole_end/E_spr_wormhole_end.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

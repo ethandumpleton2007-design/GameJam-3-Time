@@ -4,6 +4,7 @@ randomise();
 // Spawning
 
 isSpawning = true;
+alarmTripped = false;
 
 spawnCoolDown = 50;
 

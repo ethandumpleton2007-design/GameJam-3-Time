@@ -1,6 +1,7 @@
 if(activated)
 x += objectSpeed;
 
+
 //SOUND: shooting star, first 2 seconds only (plays once, when the comet activates)
 if (activated && !variable_instance_exists(id, "starSoundPlayed")){
 	starSoundPlayed = true;

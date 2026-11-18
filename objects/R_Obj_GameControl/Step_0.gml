@@ -122,7 +122,6 @@ if isSpawning == true
 	}
 }
 // Story mode end
-
 if (global.R_isEndless == false)
 {
 	if (global.R_Score >= storyEndingScore)
@@ -138,8 +137,12 @@ if (global.R_isEndless == false)
 				audio_play_sound(welldone, 30, false, 4);
 			}));
 		}
-		
 		global.R_DinoGameWon = true;
+		
+	//waits for the "well done" voice line to finish, then goes to the future minigame.
+	if(!alarmTripped){
+		alarmTripped = true;
+		alarm[0] = 240}
 	}
 }
 // MUSIC: loop until win or lose
