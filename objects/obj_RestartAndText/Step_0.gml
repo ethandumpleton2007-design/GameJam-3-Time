@@ -1,4 +1,4 @@
-if (keyboard_check(vk_space) and room = LoseHadiMinigame){
+if (keyboard_check(vk_space) and room = LoseHadiMinigame and ready = true){
     globalresetRoom = true
     global.streak = 0
     room_goto(HadiMinigame);

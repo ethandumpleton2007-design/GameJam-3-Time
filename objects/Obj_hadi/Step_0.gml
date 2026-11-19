@@ -1,20 +1,19 @@
-if (alarm[0] == -1) and State = "Safe" {
-        alarm[0] = random_range(250,500);
+if (alarm[1] == -1) and (alarm[0] == -1) and State = "Safe" {
+        alarm[0] = random_range(200,300);
 }
-if (alarm[0] == -1) and State = "Search" {
-        alarm[0] = 120;
+if (alarm[1] == -1) and (alarm[0] == -1) and State = "Search" {
+        alarm[1] = 120;
 }
 
 if globalresetRoom = true {
     room_restart()
 }
 
-if State == "Search" and obj_player.PlayerState = "Moving" {
+if State == "Search" and obj_player.PlayerState = "Moving" and obj_player.Safe != true {
     global.Death = "Caught"
-    gameOver = true
-    room_goto(LoseHadiMinigame)
+    room_goto(HadiBlast)
 }
-if gameOver = true {
+if global.gameOver = true {
     room_goto(LoseHadiMinigame)
 }
 
