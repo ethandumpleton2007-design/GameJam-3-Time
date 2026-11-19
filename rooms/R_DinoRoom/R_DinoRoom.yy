@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"R_DinoRoom",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/R_DinoRoom/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -9,6 +9,7 @@
     {"name":"inst_36840D60","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
     {"name":"inst_FF095F3","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
     {"name":"inst_2F8DA9C5","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
+    {"name":"inst_7E6DC91A","path":"rooms/R_DinoRoom/R_DinoRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,14 +17,9 @@
         {"$GMRInstance":"v4","%Name":"inst_36840D60","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36840D60","objectId":{"name":"R_Obj_Egg","path":"objects/R_Obj_Egg/R_Obj_Egg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":528.0,},
         {"$GMRInstance":"v4","%Name":"inst_FF095F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FF095F3","objectId":{"name":"R_Obj_Player","path":"objects/R_Obj_Player/R_Obj_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":432.0,},
         {"$GMRInstance":"v4","%Name":"inst_2F8DA9C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F8DA9C5","objectId":{"name":"R_Obj_GameControl","path":"objects/R_Obj_GameControl/R_Obj_GameControl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":144.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7E6DC91A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E6DC91A","objectId":{"name":"Obj_ControlTutorial","path":"objects/Obj_ControlTutorial/Obj_ControlTutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":240.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRAssetLayer":"","%Name":"IndecatorLine","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_1F52D5FB","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1F52D5FB","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"spriteId":{"name":"R_Spr_HitIndecatorTemp","path":"sprites/R_Spr_HitIndecatorTemp/R_Spr_HitIndecatorTemp.yy",},"x":1144.0,"y":528.0,},
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_7F787D2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7F787D2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":2.0,"spriteId":{"name":"R_Spr_HitIndecatorTemp","path":"sprites/R_Spr_HitIndecatorTemp/R_Spr_HitIndecatorTemp.yy",},"x":776.0,"y":528.0,},
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_40A7DFBE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_40A7DFBE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":-2.0,"spriteId":{"name":"R_Spr_HitIndecatorTemp","path":"sprites/R_Spr_HitIndecatorTemp/R_Spr_HitIndecatorTemp.yy",},"x":960.0,"y":712.0,},
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_6EE24F28","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6EE24F28","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":-2.0,"spriteId":{"name":"R_Spr_HitIndecatorTemp","path":"sprites/R_Spr_HitIndecatorTemp/R_Spr_HitIndecatorTemp.yy",},"x":960.0,"y":344.0,},
-      ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IndecatorLine","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Spr_TempBackround2","path":"sprites/Spr_TempBackround2/Spr_TempBackround2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":215,"y":100,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"R_Spr_FinBackround","path":"sprites/R_Spr_FinBackround/R_Spr_FinBackround.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":215,"y":100,},
   ],
   "name":"R_DinoRoom",
   "parent":{
