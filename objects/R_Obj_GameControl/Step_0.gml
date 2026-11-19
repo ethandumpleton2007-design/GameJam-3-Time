@@ -158,7 +158,10 @@ else if (!audio_is_playing(_music))
 }
 
 
-
+if (global.R_isHard == true)
+{
+	wave = 4;
+}
 
 
 //wave till

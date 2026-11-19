@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"R_Spr_TempEgg2",
-    "path":"sprites/R_Spr_TempEgg2/R_Spr_TempEgg2.yy",
+    "name":"R_Spr_FinEgg",
+    "path":"sprites/R_Spr_FinEgg/R_Spr_FinEgg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

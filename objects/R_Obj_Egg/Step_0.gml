@@ -21,3 +21,10 @@ image_index = eggHealth
 		instance_destroy();
 		
 	}
+	
+if (global.R_DinoGameWon == true)
+{
+	sprite = R_Spr_FinEggWIN;
+}
+
+sprite_index = sprite;
