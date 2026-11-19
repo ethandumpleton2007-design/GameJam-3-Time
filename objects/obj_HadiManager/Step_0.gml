@@ -3,9 +3,9 @@ if global.TimelineChange = true {
     if global.AnomolyGuess != global.hasAnomoly {
         global.streak = 0
         global.Death = "Timeline"
-        Obj_hadi.gameOver = true
+        global.gameOver = true
     }
-    else {
+    else if global.AnomolyGuess == global.hasAnomoly{
         global.streak = global.streak + 1
         if global.streak < 5 {
             room_goto(TimelineChange)

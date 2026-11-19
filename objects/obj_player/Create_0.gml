@@ -4,3 +4,5 @@ move_x = 0;
 move_y = 0;
 PlayerDirection = "right";
 PlayerState = "Sit"
+leavingChair = false
+Safe = false
