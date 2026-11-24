@@ -151,7 +151,6 @@
     {"name":"inst_46D25E1B","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_59D7DEA2","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_437F8601","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
-    {"name":"inst_1FCEDDE4","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_3CC09BF5","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_35C5CE78","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
     {"name":"inst_29B4266D","path":"rooms/E_Minigame_Future/E_Minigame_Future.yy",},
@@ -176,7 +175,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"instance_Screens","depth":-300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_1FCEDDE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FCEDDE4","objectId":{"name":"E_obj_Level_Win_Screen","path":"objects/E_obj_Level_Win_Screen/E_obj_Level_Win_Screen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.053125,"scaleY":1.0,"x":-15.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_34AF0854","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34AF0854","objectId":{"name":"E_obj_GameOverScreen","path":"objects/E_obj_GameOverScreen/E_obj_GameOverScreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-8.0,"y":0.0,},
       ],"layers":[],"name":"instance_Screens","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

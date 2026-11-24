@@ -1,1 +1,1 @@
-room_goto(E_Minigame_Future);
+room_goto(E_Room_before_Future);

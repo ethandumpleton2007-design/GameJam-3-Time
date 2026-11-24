@@ -1,4 +1,4 @@
-if(!global.futureLevelComplete && !gameOver)
+if(!gameOver)
 
 //Checks inputs
 EXinput = keyboard_check(ord("D")) - keyboard_check(ord("A"))
@@ -75,3 +75,8 @@ if(global.IFrames = true && global.IFramesInvis){
 else if(!global.IFrames){
 	global.IFramesInvis = false;
 	image_alpha = 1;}
+
+//Player beats the level	
+if(global.futureLevelComplete && !finishedLevelAlarmTrip){
+	finishedLevelAlarmTrip = true;
+	alarm[4] = 10}

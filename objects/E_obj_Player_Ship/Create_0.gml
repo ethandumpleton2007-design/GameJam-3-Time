@@ -22,7 +22,10 @@ Shooting = false;
 Reloading = false;
 gameOver = false;
 
-sprite_index = E_spr_Placeholder_Player_Ship
+//ik this is a janky way to fix things but i am tired so shhhhhh
+finishedLevelAlarmTrip = false
+
+sprite_index = E_spr_player_edit
 image_alpha = 1
 image_index = 0;
 image_speed = 0;

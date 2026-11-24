@@ -1,1 +1,1 @@
-room_goto(roomGoTo)
+room_goto(E_room_before_past)
